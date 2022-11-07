@@ -1,0 +1,16 @@
+// Componentes
+@use "sass/componentes";
+// $color -> comp.$color
+
+// Mixins
+@use "sass/mixins";
+// $color -> mixins.$color
+// $color -> con el as * solo se llamaría a la variable con $color sin namespace
+
+// Estilos
+@use "sass/estilos";
+
+// Páginas
+
+// Otros
+@use "sass/builting";

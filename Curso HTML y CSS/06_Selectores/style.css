@@ -1,0 +1,26 @@
+button {
+    padding: 15px;
+    width: 150px;
+
+    border: none;
+    border-radius: 100px;
+}
+
+button:hover {
+    background-color: limegreen;
+    color: white;
+    font-weight: bold;
+}
+
+button::before {
+    content: 'Pasa por encima';
+    visibility: visible;
+}
+
+button:hover::after {
+    content: '¡HECHO!';    
+}
+
+button:hover::before {
+    display: none;
+}
