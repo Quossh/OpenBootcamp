@@ -42,7 +42,6 @@ if (c !== d) {
 
 
 // Mayores - Menores
-
 let max = 10;
 let min = 5;
 
